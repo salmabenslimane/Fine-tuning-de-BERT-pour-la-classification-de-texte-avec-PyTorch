@@ -1,0 +1,7 @@
+| Étape                      | Description                                  | Objectif                    |
+| -------------------------- | -------------------------------------------- | --------------------------- |
+| 1️⃣ Chargement des données | Lire le dataset SST-2                        | Avoir les textes et labels  |
+| 2️⃣ Tokenization           | Transformer les textes en vecteurs           | Entrée compatible avec BERT |
+| 3️⃣ Modèle                 | Charger BERT pré-entraîné + couche de sortie | Base linguistique solide    |
+| 4️⃣ Entraînement           | Fine-tuning sur quelques epochs              | Adapter à la tâche          |
+| 5️⃣ Évaluation             | Mesurer accuracy / F1                        | Vérifier la performance     |
